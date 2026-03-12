@@ -1,29 +1,13 @@
-<div align="center">
-
-# PointSav Fleet Manifest | Manifiesto de Flota PointSav
-### *Internal Production and Edge Infrastructure*
-
-</div>
-
-<br/>
-
-> [!WARNING]
-> **COMPLIANCE & SECURITY NOTICE**
-> This repository maps our public edge delivery network. It stores zero proprietary corporate data or isolated Totebox archives.
-
-| System Status | Component Type | Regulatory Standard |
-| :--- | :--- | :--- |
-| 🟢 Active | Fleet Manifest | BCSC Continuous Disclosure |
-
-## 📖 The Deployment Matrix
-This manifest maps our active physical and virtual servers. Every active node mirrors our internal engineering foundry. This ensures absolute structural parity across our network.
-
-| Node ID | Physical Role | Security Compliance |
-| :--- | :--- | :--- |
-| **node-ps-edge-01** | Public Intelligence | Active Standard |
-| **node-foundry-brain** | Command Authority | Active Standard |
-| **node-cloud-relay** | Private Mesh Anchor | Active Standard |
+# 🚢 POINTSAV FLEET DEPLOYMENT
+**Entity:** PointSav Digital Systems™ (The Vendor)
+**Function:** Generic Showcase & Operational Proof
 
 ---
-*© 2026 PointSav Digital Systems™.*
-*Public Architectural Disclosure. Governed by the Sovereign Data Protocol.*
+## I. ARCHITECTURAL MANDATE
+This repository demonstrates how a Customer deploys PointSav infrastructure. It utilizes "Generic Showcase" language, abstracting complex Rust and OS-level implementations into digestable concepts (`os-totebox`, `os-mediakit`). This fleet is engineered to prove the Vendor/Customer model to technical auditors and institutional partners.
+
+## II. CONTAINED ASSETS
+* `media-marketing-landing`: The public-facing Edge Delivery network demonstrating Zero-Cookie analytics.
+
+## III. LICENSING
+Refer to the `LICENSE` file. Operational deployment logic is strictly reserved.
