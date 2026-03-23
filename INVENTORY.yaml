@@ -23,7 +23,7 @@ nodes:
     docs: [SYS-BOOT-01, PPN-01, SYS-ADR-04]
 
   - node_id: NODE-GCP-RELAY
-    role: fleet-infrastructure-gcp
+    role: fleet-infrastructure-cloud
     hardware: GCP e2-micro
     status: ACTIVE (Virtualized Shim)
     docs: [PPN-01, SYS-ADR-04, OS-INFRA-01]
