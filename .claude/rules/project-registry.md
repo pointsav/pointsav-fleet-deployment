@@ -12,7 +12,7 @@ Deployment prefix taxonomy — see `IT_SUPPORT_Nomenclature_Matrix_V8.md`
 §4 ("fleet-", "route-", "gateway-", "cluster-", "node-", "media-",
 "vault-").
 
-Last updated: 2026-04-22.
+Last updated: 2026-04-26.
 
 ---
 
@@ -21,7 +21,7 @@ Last updated: 2026-04-22.
 | Project | State | Type | Notes |
 |---|---|---|---|
 | media-knowledge-distribution | Reserved-folder | media | 3 files |
-| media-knowledge-documentation | Reserved-folder | media | 3 files |
+| media-knowledge-documentation | Active | media | 8 files; README+README.es+MANIFEST+guide-deployment+guide-provision-node ratified 2026-04-26 (project-knowledge cluster session 3) |
 | media-marketing-landing | Scaffold-coded | media | 14 files |
 
 ## Vault deployments (`vault-*`)
@@ -33,11 +33,11 @@ Last updated: 2026-04-22.
 
 ---
 
-## Summary (2026-04-22 baseline)
+## Summary (2026-04-26)
 
-- **Active:** 0
+- **Active:** 1 (`media-knowledge-documentation`)
 - **Scaffold-coded:** 1
-- **Reserved-folder:** 4
+- **Reserved-folder:** 3
 - **Defect:** 0
 - **Not-a-project:** 0
 - **Dormant:** 0
