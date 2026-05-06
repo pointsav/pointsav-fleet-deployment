@@ -30,11 +30,16 @@ AI-readable design-decision research, and derived exports.
 The substrate engine binary (`app-privategit-design`) reads the vault
 from disk and exposes:
 
-- A public HTML showcase at `/`
-- A DTCG token bundle at `/tokens.json`
-- An AI-readable research surface at `/research/<topic>` and `/research`
-- A Model Context Protocol (MCP) JSON-RPC 2.0 server at `/mcp`
-- Health and readiness probes at `/healthz`, `/readyz`
+- **Public HTML Showcase:** Responsive, Carbon-inspired UI with live-reloading (SSE).
+- **'Invisible' CMS:** Keyboard-first Command Palette (`Cmd+K`) for rapid vault navigation.
+- **Mobile-First Discovery:** Native touch navigation for stakeholders on the go.
+- **L1: Live DTCG Export:** Typed token bundle at `/tokens.json` and `/api/tokens/<theme>`.
+- **L2: Expanded MCP Server:** JSON-RPC 2.0 surface at `/mcp` for AI agent co-authoring.
+- **L3: shadcn Registry:** Compatible `/r/registry.json` for zero-cost AI-codegen.
+- **L4: DESIGN.md Export:** Google 2026 rationale bundling at `/api/design-<theme>.md`.
+- **L5/L6: Cross-Cluster Artifacts:** Programmatic TOPIC and GUIDE generation at `/api/artifacts/`.
+- **Visual Diffs:** Integrated Git-backed version history and audit trails for all recipes.
+- **Health Probes:** Liveness and readiness endpoints at `/healthz`, `/readyz`.
 
 The engine is stateless above the vault; restarting the binary
 re-reads the vault. Per-tenant isolation is achieved by running one
