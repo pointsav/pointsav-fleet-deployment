@@ -6,21 +6,22 @@
 > Read at session start when a Root Claude opens in this repo. Update
 > at session end when repo-scope open items change.
 
-Last updated: 2026-04-22.
+Last updated: 2026-05-14.
 
 ---
 
 ## Currently open
 
-- **Repo-level `CLAUDE.md` missing.** Tracked at workspace level as a
-  cross-repo item. Create a repo-level `CLAUDE.md` defining this
-  repo's scope (deployment artefacts for the PointSav fleet —
-  `media-*`, `vault-*` directories per Nomenclature §4).
-- **Per-project bilingual READMEs.** Audit each of the 5 deployment
-  directories (`media-knowledge-distribution`,
-  `media-knowledge-documentation`, `media-marketing-landing`,
-  `vault-privategit-design-system`, `vault-privategit-source`) for
-  `README.md` / `README.es.md` pairs.
+*(none)*
+
+## Recently closed (2026-05-14)
+
+- **Repo-level `CLAUDE.md`** — created 86-line CLAUDE.md (under 150-line cap) with
+  scope, commit flow, required files, and local rules. Commit `2d46ed7`.
+- **Per-project bilingual READMEs** — all 5 deployment directories now have
+  `README.md` + `README.es.md` pairs. 4 missing ES files added:
+  `media-knowledge-distribution`, `media-marketing-landing`,
+  `vault-privategit-design-system`, `vault-privategit-source`. Commit `e08fcf3`.
 
 ## Recently closed (2026-04-22)
 
