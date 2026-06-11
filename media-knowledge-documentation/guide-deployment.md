@@ -1,6 +1,8 @@
 ---
 schema: foundry-runbook-v1
 title: "Knowledge Wiki Deployment Runbook"
+slug: guide-deployment
+type: guide
 category: help
 component: media-knowledge-documentation
 audience: workspace-master
