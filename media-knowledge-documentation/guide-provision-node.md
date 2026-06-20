@@ -10,6 +10,8 @@ canonical_language: en
 status: active
 runbook_version: 0.1.0
 last_edited: "2026-04-26"
+type: guide
+slug: guide-provision-node
 ---
 
 # guide-provision-node — media-knowledge-documentation
